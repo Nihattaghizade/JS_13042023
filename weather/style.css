@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F8FF;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  #city-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  #weather-info {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px #888;
+    border-radius: 4px;
+  }
+  
+  #weather-info h2 {
+    font-size: 24px;
+    margin-top: 0px;
+  }
+  
+  #weather-info img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  #weather-info p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
